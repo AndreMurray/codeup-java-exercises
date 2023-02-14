@@ -1,8 +1,22 @@
 public class udemy {
-    public static void main(String[] args) {
-        int myFive = 5;
-        int myTwo = 2;
-        float answer = myFive / myTwo;
-        System.out.println(answer);
+    public static void count(int n) {
+        if (n <= 0) {
+            System.out.println("All done!");
+            return;
+        }
+        System.out.println(n);
+        count(n - 1);
     }
+
+    public static void main(String[] args) {
+        count(5);
+    }
+
+
+
+
+
+
+
 }
+
