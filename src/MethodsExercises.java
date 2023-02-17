@@ -3,19 +3,22 @@ import java.util.Scanner;
 
 public class MethodsExercises {
 
-    public static int add(int num1, int num2) {
+    public static double add(double num1, double num2) {
         return num1 + num2;
     }
 
-    public static int subtract(int num1, int num2) {
+    public static double subtract(double num1, double num2) {
         return num1 - num2;
     }
 
-    public static int multi(int num1, int num2) {
+    public static double multi(double num1, double num2) {
         return num1 * num2;
     }
 
-    public static int division(int num1, int num2) {
+    public static double division(double num1, double num2) {
+        return num1 / num2;
+    }
+    public static double modulus(double num1, double num2) {
         return num1 / num2;
     }
     public static int getInteger(int min, int max) {
@@ -29,13 +32,21 @@ public class MethodsExercises {
         }
     }
 
-    public static void main(String[] args) {
-
-    System.out.print("Enter a number between 1 and 10:");
-    int userInput = getInteger(1, 10);
-
-
+    public static int getRandomInt(int min, int max) {
+        return min + (int)(Math.random() * ((max - min) + 1));
     }
+
+//    public static void main(String[] args) {
+//        System.out.println("Enter in the max number of sides in the dice");
+//       int noOfSidesOfDice = getInteger(1, 6);
+//        System.out.printf("You have rolled %d and a %d", getRandomInt(1, noOfSidesOfDice), getRandomInt(1, noOfSidesOfDice));
+//
+//
+////    System.out.print("Enter a number between 1 and 10:");
+////    int userInput = getInteger(1, 10);
+//
+//
+//    }
 
 
 
