@@ -21,8 +21,8 @@ public class ArraysExercises {
 //        System.out.println("....adding person to array.....");
 //
 //        Person.addPerson(people.getName());
-
-
+//
+//
 
 
     }
